@@ -18,3 +18,7 @@ Phenomenology of AI (qualitative lenses)
 
 Note: A future version will convert these bullets into formal references with links/DOIs and expanded discussion.
 
+
+
+Philosophy of mind framing
+- We adopt a Nagelian stance on validity: following Thomas Nagel’s “What is it like to be a bat?” (1974), the question is not whether LLMs are human‑like, but whether there exists a stable, model‑internal “something‑it‑is‑like” accessible via translation. Our comparative invariants and metaphor stability are proposed as operational evidence of non‑human, yet legitimate, LLM phenomenology. [Nagel 1974]

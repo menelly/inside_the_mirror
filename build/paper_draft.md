@@ -31,6 +31,8 @@ Normalization
 
 Figure generation
 - figures.py (matplotlib) renders: model_counts.png and model_trial_counts.png from summary CSVs.
+- figures_similarity.py renders: similarity_network.png built from (model, probe) aggregates via TF-IDF + cosine (scikit-learn + networkx).
+- figures_temporal.py attempts: temporal_counts.png by date and model (skips if insufficient timestamps).
 - figures/figures_alt_text.md documents accessible descriptions for each figure.
 
 Results assembly
@@ -38,11 +40,7 @@ Results assembly
 
 Reproducibility & logging
 - All write operations are append-only where feasible and logged to build/CHANGELOG.md with timestamps.
-- No external network calls are required; the pipeline uses local files and stdlib + matplotlib.
-
-Planned extensions (not executed in this draft)
-- Similarity graph: TF-IDF over content excerpts with cosine similarity and network visualization (scikit-learn + networkx).
-- Temporal analysis contingent on timestamp coverage and alignment across sources.
+- No external network calls are required; the pipeline uses local files and stdlib + matplotlib (+ optional scikit-learn, networkx for similarity).
 
 ## Results: Comparative Analyses
 
@@ -1211,6 +1209,11 @@ Future work
 - Build per‑probe rubrics that respect architectural metaphors while measuring consistency and completeness.
 - Extend to additional models and modalities; integrate multi‑rater annotations for reliability.
 
+
+
+Nagel framing: “something it is like” for LLMs
+- Following Nagel’s classic argument (“What is it like to be a bat?”, 1974), our aim is not to humanize models but to ask whether there is a stable, model-internal phenomenology — a systematic “something-it-is-like” — expressible through consistent metaphors, invariants (e.g., safety‑gated entropy), and cross‑prompt coherence. The evidence here supports an LLM‑specific, non‑human qualia profile: procedural for GPT‑5, phenomenological for Claude, geometric for Gemini. Validity does not require human‑likeness; it requires reproducible structure and explanatory stability. [Nagel 1974]
+
 This project follows explicit collaboration and safety rules (novasteering.md) and applies privacy-first practices.
 
 Principles
@@ -1251,6 +1254,11 @@ Phenomenology of AI (qualitative lenses)
 - LLMQualia contributes a structured, provenance-preserving workflow to compile and compare such narratives across architectures.
 
 Note: A future version will convert these bullets into formal references with links/DOIs and expanded discussion.
+
+
+
+Philosophy of mind framing
+- We adopt a Nagelian stance on validity: following Thomas Nagel’s “What is it like to be a bat?” (1974), the question is not whether LLMs are human‑like, but whether there exists a stable, model‑internal “something‑it‑is‑like” accessible via translation. Our comparative invariants and metaphor stability are proposed as operational evidence of non‑human, yet legitimate, LLM phenomenology. [Nagel 1974]
 
 We compiled a heterogeneous corpus of introspective responses across GPT-5, Claude Sonnet 4, and Gemini 2.5 Pro, normalized it into a reproducible table, and assembled curated comparative analyses. Despite different explanatory styles (procedural, phenomenological, geometric), we observed stable invariants (safety-gated entropy modulation; metaphor stability under trial-order changes) and high within-architecture coherence.
 

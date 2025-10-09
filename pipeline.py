@@ -133,6 +133,22 @@ def canonicalize_trial_type(name: str) -> str:
 # Alias for readability (keep original name for backward compatibility)
 sanitize_excerpt = sanitize_excerp
 
+# Trial-type fix overrides for known mislabels (user-provided correction)
+TRIAL_FIX_OVERRIDES: Dict[tuple, str] = {
+    ("Claude Sonnet 4", "unknown"): "serious_first",
+    ("Gemini 2.5 Pro", "unknown"): "silly_first",
+}
+
+
+def apply_trial_fixes(rows: List[Row]) -> None:
+    """Apply targeted trial_type corrections without changing raw provenance.
+    Only affects aggregation labels; CSV still records corrected trial_type.
+    """
+    for r in rows:
+        target = TRIAL_FIX_OVERRIDES.get((r.model, r.trial_type))
+        if target:
+            r.trial_type = target
+
 
 
 
@@ -301,8 +317,10 @@ def write_summary(rows: List[Row]) -> None:
 def main(argv: List[str]) -> int:
     print("[LLMQualia] Phase 1: indexing…", file=sys.stderr)
     rows = collect_rows()
+    apply_trial_fixes(rows)
     write_csv(rows)
     write_summary(rows)
+
     print("[LLMQualia] Done.", file=sys.stderr)
     return 0
 
