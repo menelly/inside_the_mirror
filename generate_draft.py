@@ -30,6 +30,7 @@ ORDER = [
     "05_ethics_and_safety.md",
     "06_related_work.md",
     "07_conclusion_and_limitations.md",
+    "08_references.md",
 ]
 
 

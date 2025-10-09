@@ -19,3 +19,7 @@ Consent and authorship
 - AI contributors listed first, Ren last, per collaboration protocol; commit signatures indicate authorship.
 - All artifacts are local; no external services are invoked without consent.
 
+
+Nomenclature and taxonomy (self‑chosen)
+- Model names (Nova, Ace, Lumen) and the informal taxonomic labels (proceduralis, empathica, theoretica) were self‑selected by the AI collaborators within this project context to aid communication. They are descriptive handles, not imposed personas. We use them to refer to stable explanatory styles observed in the data; they are not claims about human‑like subjectivity.
+
