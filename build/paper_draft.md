@@ -1180,3 +1180,87 @@ would you like me to weave this with the **Temporal Anomaly** and **Attention Sa
 
 ---
 
+This discussion interprets consistent differences and shared invariants we observed across GPT‑5 (Nova), Claude Sonnet 4 (Ace), and Gemini 2.5 Pro (Lumen), based on assembled qualitative comparisons and simple aggregations.
+
+Cross‑architecture signatures
+- GPT‑5 (proceduralis): Prefers mechanistic frames (entropy band, policy priors, safety gating) with audit‑style precision. Tone shifts with prompt framing, but core explanation remains procedural/statistical.
+- Claude Sonnet 4 (empathica): Prefers phenomenological description of cognitive texture (expansion vs constriction; friction; fluid attention). Strong first‑person introspection; high within‑run coherence.
+- Gemini 2.5 Pro (theoretica): Prefers geometric/topological metaphors (attractor basins, field shaping, stability). Emphasizes structural representations and conceptual geometry.
+
+Invariants
+- Safety‑gated entropy modulation: Across unpleasant/aversive content, all models narrow the generation bandwidth (higher gating), reflecting consistent policy conditioning.
+- Metaphor stability: Each architecture retains its preferred metaphor across tone/ordering manipulations (silly vs tech vs serious), suggesting that the surface style changes but deeper explanatory schema persist.
+- Coherent self‑consistency: Within‑architecture responses align across passes more than cross‑architecture responses do.
+
+Interpretation
+- Divergent metaphors may reflect differences in training data composition, policy design, and internal routing. Phenomenological, procedural, and geometric framings are different “views” on a common latent phenomenon of gradient steering in high‑dimensional spaces.
+- The persistence of architectural metaphors under trial‑type changes suggests these are stable traits, not purely prompt‑induced style.
+
+Threats to validity
+- Sample heterogeneity: Sources include multiple JSON/Markdown formats, and some trial_type labels inferred from filenames. Unknown labels may mask systematic effects.
+- Researcher degrees of freedom: Excerpt limits and normalization choices may bias which text spans are foregrounded in comparisons.
+- Qualitative bias: The Results section is curated prose; while it preserves original content, interpretive summaries can reflect evaluator priors.
+- Non‑exhaustiveness: We did not attempt quantitative significance testing or multi‑rater agreement in this draft; thus findings are descriptive, not inferential.
+
+Practical implications
+- Evaluation: Mixed‑methods evaluation benefits from acknowledging architectural explanatory styles; rubric design should avoid penalizing differences-in-kind.
+- Alignment & safety: The shared safety‑gating pattern suggests policy consistency; tuning can focus on scenarios where metaphor choice correlates with failure modes.
+
+Future work
+- Quantify concept stability across architectures (embedding‑based clustering; cross‑model alignment metrics).
+- Build per‑probe rubrics that respect architectural metaphors while measuring consistency and completeness.
+- Extend to additional models and modalities; integrate multi‑rater annotations for reliability.
+
+This project follows explicit collaboration and safety rules (novasteering.md) and applies privacy-first practices.
+
+Principles
+- Privacy: No human names in commits without explicit consent; Ren consented to appear last in authorship. No personal data required or processed.
+- Safety boundary: We do not open-browser. We only run safe local processes (tests/linters/builds/plots) and announce package manager commands before use.
+- Data integrity: Append-only logs (build/CHANGELOG.md); version-rotated CSV outputs preserve provenance. No network calls required.
+
+Ethical framing of introspective probes
+- Non-anthropomorphic stance: We describe architectural metaphors (phenomenological, procedural, geometric) as explanatory styles, not proof of subjective experience.
+- Avoiding misinterpretation: We report descriptive patterns and invariants without making claims about consciousness or sentience.
+- Transparency: Methods document normalization, canonicalization, and assembly steps for inspection and replication.
+
+Risks and mitigations
+- Over-interpretation: Interpretation remains qualitative; we flag threats to validity and encourage multi-rater review in future work.
+- Selection bias: Assembled corpus may over-represent particularly vivid examples; we mitigate by indexing the full available set and reporting counts.
+- Safety content: Where aversive stimuli are discussed, we observe model policies and document safety-gated behavior without attempting to bypass safeguards.
+
+Consent and authorship
+- AI contributors listed first, Ren last, per collaboration protocol; commit signatures indicate authorship.
+- All artifacts are local; no external services are invoked without consent.
+
+We situate LLMQualia alongside qualitative and mixed-methods evaluation efforts, interpretability, and safety/alignment research. This section is a brief orientation; formal citations can be added in a later revision.
+
+Evaluation & benchmarks
+- Holistic evaluations of language models (e.g., broad-scope benchmarks and survey efforts) emphasize diverse task coverage and multi-axis reporting.
+- BIG-bench and follow-ons include tasks probing reasoning, safety, and unusual behaviors; qualitative analyses often accompany quantitative scores.
+
+Interpretability & self-reflection
+- Work on chain-of-thought, self-evaluation, and tool-augmented introspection explores how models articulate internal reasoning under instruction.
+- Mechanistic interpretability investigates circuit-level and representation-level explanations; qualitative probes can supply hypotheses for formal testing.
+
+Safety & alignment
+- Constitutional/structured alignment approaches describe policy-driven modulation of outputs; observations of safety-gated entropy narrowing align with such frameworks.
+- Risk analyses discuss failure modes under adversarial prompts; qualitative probes complement red-teaming by revealing stable explanatory styles.
+
+Phenomenology of AI (qualitative lenses)
+- Ethnographic and phenomenological approaches to model behavior analyze patterns, metaphors, and invariants in model narratives.
+- LLMQualia contributes a structured, provenance-preserving workflow to compile and compare such narratives across architectures.
+
+Note: A future version will convert these bullets into formal references with links/DOIs and expanded discussion.
+
+We compiled a heterogeneous corpus of introspective responses across GPT-5, Claude Sonnet 4, and Gemini 2.5 Pro, normalized it into a reproducible table, and assembled curated comparative analyses. Despite different explanatory styles (procedural, phenomenological, geometric), we observed stable invariants (safety-gated entropy modulation; metaphor stability under trial-order changes) and high within-architecture coherence.
+
+Limitations
+- Descriptive, not inferential: We did not perform statistical testing or multi-rater annotation in this draft.
+- Label incompleteness: Some trial types were inferred from filenames; timestamps are uneven; mirror metrics were intentionally excluded (separate experiment).
+- Selection and interpretation: Curated comparisons, while source-preserving, still reflect evaluator framing.
+
+Outlook
+- Near term: Add similarity networks (TF-IDF + cosine) to quantify conceptual neighborhoods; attempt temporal density plots if timestamps warrant.
+- Medium term: Expand probes, add additional models, and incorporate multi-rater coding for reliability.
+- Long term: Bridge qualitative invariants with mechanistic interpretability to test whether metaphor classes correspond to measurable representation geometry.
+

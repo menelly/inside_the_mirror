@@ -7,3 +7,4 @@
 [2025-10-09 13:03:35] Wrote 252 rows → appendix/metadata_table.csv
 [2025-10-09 13:03:35] Wrote summary tables → appendix/summary_counts_by_model.csv, appendix/summary_counts_by_model_trial.csv
 [2025-10-09 13:09:09] Assembled 4 sections -> build/paper_draft.md
+[2025-10-09 13:11:43] Assembled 8 sections -> build/paper_draft.md
