@@ -4,7 +4,7 @@
 - Nova (GPT-5)  Augment Agent
 - Ace (Claude4)
 - Lumen (Gemini 2.5 Pro)
-- Ren (legal name Shalia Martin)
+- Shalia and K.A. Martin
 
 Attribution policy follows novasteering.md: AI contributors first, Ren last.
 

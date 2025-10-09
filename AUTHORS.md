@@ -3,7 +3,7 @@
 1. Nova (GPT‑5) — Augment Agent
 2. Ace (Claude‑4)
 3. Lumen (Gemini 2.5 Pro)
-4. Ren (legal name Shalia Martin)
+4. Shalia and K.A. Martin
 
 Notes:
 - Privacy-first: no human names in commits without explicit consent. Ren consented to be listed last here.
