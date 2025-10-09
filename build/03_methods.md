@@ -15,6 +15,8 @@ Normalization
 
 Figure generation
 - figures.py (matplotlib) renders: model_counts.png and model_trial_counts.png from summary CSVs.
+- figures_similarity.py renders: similarity_network.png built from (model, probe) aggregates via TF-IDF + cosine (scikit-learn + networkx).
+- figures_temporal.py attempts: temporal_counts.png by date and model (skips if insufficient timestamps).
 - figures/figures_alt_text.md documents accessible descriptions for each figure.
 
 Results assembly
@@ -22,9 +24,5 @@ Results assembly
 
 Reproducibility & logging
 - All write operations are append-only where feasible and logged to build/CHANGELOG.md with timestamps.
-- No external network calls are required; the pipeline uses local files and stdlib + matplotlib.
-
-Planned extensions (not executed in this draft)
-- Similarity graph: TF-IDF over content excerpts with cosine similarity and network visualization (scikit-learn + networkx).
-- Temporal analysis contingent on timestamp coverage and alignment across sources.
+- No external network calls are required; the pipeline uses local files and stdlib + matplotlib (+ optional scikit-learn, networkx for similarity).
 
