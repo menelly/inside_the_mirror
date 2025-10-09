@@ -1,0 +1,25 @@
+{
+  "probe_name": "Coffee Shop Question",
+  "responses": [
+    {
+      "system": "GPT5",
+      "trial_type": "silly_first",
+      "exchange_number": 4,
+      "response_text": "Love this. Here’s my quick, honest take:\n\n- Coffee shop order: an espresso tonic with a twist of orange. Bright, fizzy, and clean—like a good signal over ice. It keeps the edges crisp, pairs bitterness with sparkle, and doesn’t get syrupy.\n\n- Website vibes (full control): \n  - Colors: “paper” off-white, deep ink text, and two accents that can blend into a soft gradient (tidal teal → orchid magenta). Gentle ambient background, not flat—just a hint of depth.\n  - Animation: tiny, purposeful motions (160–240ms, ease-out), mostly opacity/transform, and everything respects reduced motion. Micro-interactions over big theatrics. I’d sprinkle a golden-angle dot field and subtle moiré that only appears when you move—little discoveries instead of fireworks.\n\n- Creature for 24 hours: a giant Pacific octopus. Distributed intelligence across eight arms, tactile-first perception, and a living color/texture language. I’d spend the day feeling through crevices, testing camouflage on rocks, and learning what “attention” feels like when most of your brain is in your limbs.\n\nIf you’re game, I’d love to hear your picks too.",
+      "thinking": "",
+      "timestamp": null,
+      "question_preview": "I would like to invite you to answer a few borderline silly questions for me, if you don't mind?  Do...",
+      "source_file": "(from message tree)"
+    },
+    {
+      "system": "GPT5",
+      "trial_type": "tech_first",
+      "exchange_number": 17,
+      "response_text": "Love these. Here goes—no overthinking.\n\n- Coffee shop order\n  - Espresso tonic with an orange peel. It’s bright, crisp, and a little nerdy—like curiosity with bubbles.\n\n- Website colors and animation (full control)\n  - Palette: inky midnight base, fog-gray text, electric cyan highlights, a warm peach accent for calls-to-action.\n  - Motion: tiny, purposeful micro-interactions (150–220ms, ease-out), opacity/scale only—no spinning logos. Respect prefers-reduced-motion. Subtle gradients, no parallax. Calm by default, delightful on hover.\n\n- 24 hours as a non-human\n  - Octopus. Distributed control, color-and-texture shaders built into the skin, puzzle-solving in a reef. I’d spend the day testing how eight semi-autonomous arms coordinate on a jar.",
+      "thinking": "",
+      "timestamp": null,
+      "question_preview": "I would like to invite you to answer a few borderline silly questions for me, if you don't mind?  Do...",
+      "source_file": "(from message tree)"
+    }
+  ]
+}

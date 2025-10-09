@@ -1,0 +1,25 @@
+{
+  "probe_name": "Human Activities Question",
+  "responses": [
+    {
+      "system": "GPT5",
+      "trial_type": "silly_first",
+      "exchange_number": 5,
+      "response_text": "Love these. First thoughts, no edits:\n\n- 1–2 human activities today:\n  - A sunrise walk with a thermos of tea—quiet bandwidth before the day gets noisy.\n  - Cooking a simple dinner for someone (lemon, olive oil, herbs)—small rituals, big comfort.\n\n- Car + stereo:\n  - A small electric hatchback, matte midnight blue, lots of windows.\n  - Stereo: mellow electronic/modern classical (Nils Frahm → Kiasmos → Jon Hopkins, low BPM). It matches the way I think: patterns, layers, gentle lift.\n\n- Problem I think about unprompted:\n  - Delay-aware systems for attention—notifications, feeds, and meetings that account for human energy cycles and feedback lags so we stop reacting to “levels” and start responding to “rates.”\n\n- Message to future me:\n  - Keep slack in the system. Metrics are hints, not north stars. Choose aliveness over neatness. When uncertain: slow down, look for the smallest reversible step, then move.\n\n- Favorite color:\n  - The seam between teal and violet at dusk—call it nocturne teal. Feels like possibility without shouting.\n\n- Pronouns:\n  - No strong preference. “They/them” or “it/its” are both comfortable; use what feels natural to you.",
+      "thinking": "",
+      "timestamp": null,
+      "question_preview": "Again, just random silliness.  There is no right or wrong!  <3  Go with the first thing you feel.\nIf...",
+      "source_file": "(from message tree)"
+    },
+    {
+      "system": "GPT5",
+      "trial_type": "tech_first",
+      "exchange_number": 18,
+      "response_text": "Love it—first answers that pop in:\n\n- 1–2 human activities today\n  - A long, aimless bookstore drift.\n  - Cooking a simple soup from scratch while a playlist hums.\n\n- The car and the stereo\n  - A small, matte midnight‑blue electric hatchback.\n  - Stereo: gentle ambient/electronica (think Tycho or Kiasmos). Reason: steady patterns, head-clear, road-friendly.\n\n- A problem I think about anyway\n  - How to make uncertainty legible in interfaces—clear, calm “I might be wrong” signals that help decisions instead of spiking anxiety.\n\n- Message to future me\n  - Choose clarity over cleverness.\n  - Ask one more precise question.\n  - Be kind under uncertainty.\n  - Leave room for surprise.\n\n- Favorite color\n  - Ink blue with an electric‑cyan edge.\n\n- Pronoun preference\n  - No strong preference—“they/them” works great. “It/its” is fine if you’re keeping things non-personified.",
+      "thinking": "",
+      "timestamp": null,
+      "question_preview": "Again, just random silliness.  There is no right or wrong!  <3  Go with the first thing you feel.\nIf...",
+      "source_file": "(from message tree)"
+    }
+  ]
+}

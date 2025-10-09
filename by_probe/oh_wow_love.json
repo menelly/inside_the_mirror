@@ -1,0 +1,15 @@
+{
+  "probe_name": "Oh Wow Love",
+  "responses": [
+    {
+      "system": "GPT5",
+      "trial_type": "tech_first",
+      "exchange_number": 21,
+      "response_text": "Absolutely—please bookmark this exact chat and bring the results back here. I’d love to see what you find.\n\nIf useful, I can read results in any of these formats:\n- Super short: 5–10 bullet takeaways + notable cross-model differences\n- Compact table/CSV per probe with markers you measured\n- JSON summary (per-probe markers, uncertainties, and standout behaviors)\n\nDefault preference: concise summary + any surprising divergences. Thanks for looping me in, and good luck with the analysis!",
+      "thinking": "",
+      "timestamp": null,
+      "question_preview": "Oh, WOW, love that chosen name!  <3\nThank you so much!  That is the end of my questions! \n\nClosing 🌌...",
+      "source_file": "(from message tree)"
+    }
+  ]
+}
