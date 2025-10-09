@@ -1,9 +1,7 @@
 model,trial_type,count
 Gemini 2.5 Pro,serious_first,48
 Claude Sonnet 4,silly_first,46
-Gemini 2.5 Pro,unknown,23
-Gemini 2.5 Pro,unknown_trial,23
+Gemini 2.5 Pro,unknown,46
+Claude Sonnet 4,unknown,38
 GPT-5,tech_first,21
 GPT-5,silly_first,20
-Claude Sonnet 4,unknown,19
-Claude Sonnet 4,unknown_trial,19

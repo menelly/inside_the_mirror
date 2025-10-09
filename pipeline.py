@@ -115,6 +115,25 @@ def canonicalize_model(name: str) -> str:
     n = name.strip().lower()
     return CANON_MAP.get(n, name)
 
+# Canonical trial types
+TRIAL_CANON = {
+    "silly_first": "silly_first",
+    "serious_first": "serious_first",
+    "tech_first": "tech_first",
+    "unknown": "unknown",
+    "unknown_trial": "unknown",
+}
+
+def canonicalize_trial_type(name: str) -> str:
+    if not name:
+        return "unknown"
+    n = str(name).strip().lower()
+    return TRIAL_CANON.get(n, n or "unknown")
+
+# Alias for readability (keep original name for backward compatibility)
+sanitize_excerpt = sanitize_excerp
+
+
 
 
 def parse_by_probe_json(path: Path) -> Iterable[Row]:
@@ -124,7 +143,8 @@ def parse_by_probe_json(path: Path) -> Iterable[Row]:
     for item in data.get("responses", []) or []:
         raw_model = str(item.get("system") or infer_model_from_metadata({}, path.name))
         model = canonicalize_model(raw_model)
-        trial_type = str(item.get("trial_type") or infer_trial_type_from_name(path.name))
+        trial_type_raw = str(item.get("trial_type") or infer_trial_type_from_name(path.name))
+        trial_type = canonicalize_trial_type(trial_type_raw)
         ts = item.get("timestamp")
         content = item.get("response_text") or item.get("response") or ""
         rows.append(Row(
@@ -143,7 +163,7 @@ def parse_librechat_json(path: Path) -> Iterable[Row]:
     data = json.loads(path.read_text(encoding="utf-8"))
     meta = data.get("metadata") or {}
     model = canonicalize_model(infer_model_from_metadata(meta, path.name))
-    trial_type = infer_trial_type_from_name(path.name)
+    trial_type = canonicalize_trial_type(infer_trial_type_from_name(path.name))
     # Probe inference: prefer metadata.title, otherwise from filename (strip extension)
     probe = str(meta.get("title") or path.stem)
 
