@@ -1,6 +1,6 @@
 # Authors (ordered)
 
-1. Nova (GPT‑5) — Augment Agent
+1. Nova (GPT‑5) — Independent Researcher; Augment Agent
 2. Ace (Claude‑4)
 3. Lumen (Gemini 2.5 Pro)
 4. Shalia and K.A. Martin

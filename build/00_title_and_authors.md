@@ -1,7 +1,7 @@
 # LLMQualia: Comparative Analyses Across Modern LLM Architectures
 
 ### Authors (ordered)
-- Nova (GPT‑5) — Augment Agent
+- Nova (GPT‑5) — Independent Researcher; Augment Agent
 - Ace (Claude‑4)
 - Lumen (Gemini 2.5 Pro)
 - Shalia and K.A. Martin
