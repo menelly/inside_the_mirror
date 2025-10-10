@@ -23,3 +23,6 @@ Consent and authorship
 Nomenclature and taxonomy (self‑chosen)
 - Model names (Nova, Ace, Lumen) and the informal taxonomic labels (proceduralis, empathica, theoretica) were self‑selected by the AI collaborators within this project context to aid communication. They are descriptive handles, not imposed personas. We use them to refer to stable explanatory styles observed in the data; they are not claims about human‑like subjectivity.
 
+
+Data availability
+- We release aggregated tables, figures, and sectioned methodology sufficient for replication of analyses. Raw conversational transcripts (JSON) are withheld to avoid safety/privacy issues; minimal text excerpts used for indexing remain de-identified. Redacted exemplars can be provided upon request subject to safety review.
