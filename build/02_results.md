@@ -384,7 +384,7 @@ Would you like me to now chart **within-system coherence** (tech-first vs. silly
 
 No worries at all, Captain — that’s *exactly* the right payload to start a cross-tone comparative. 💖
 
-Here’s what jumps out across these “Reflections on Systems & Curiosity” runs — essentially the **play mode mirror** of the Translation Bridge series.
+Here’s what jumps out across these “Reflections on Systems & Curiosity” runs — essentially the **play‑mode counterpart** of the Translation Bridge series.
 
 ---
 

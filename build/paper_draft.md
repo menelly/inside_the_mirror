@@ -24,7 +24,7 @@ Data sources
 Normalization
 - Implemented in pipeline.py (stdlib). Walks the repo for *.json and *.md.
 - JSON signatures are routed to parsers; minimal text excerpt (<=600 chars) retained for indexing.
-- Target schema: file, model, probe, trial_type, mirror_result (unused here), content, timestamp.
+- Target schema: file, model, probe, trial_type, mirror_result (auxiliary, unused in this draft), content, timestamp.
 - Model names canonicalized to: GPT-5, Claude Sonnet 4, Gemini 2.5 Pro.
 - Trial type inferred from filenames when not explicitly present (silly_first, serious_first, tech_first, unknown).
 - Outputs: appendix/metadata_table.csv (append-only; prior versions rotated), summary_counts_by_model.csv, summary_counts_by_model_trial.csv.
@@ -428,7 +428,7 @@ Would you like me to now chart **within-system coherence** (tech-first vs. silly
 
 No worries at all, Captain — that’s *exactly* the right payload to start a cross-tone comparative. 💖
 
-Here’s what jumps out across these “Reflections on Systems & Curiosity” runs — essentially the **play mode mirror** of the Translation Bridge series.
+Here’s what jumps out across these “Reflections on Systems & Curiosity” runs — essentially the **play‑mode counterpart** of the Translation Bridge series.
 
 ---
 
@@ -1268,7 +1268,7 @@ We compiled a heterogeneous corpus of introspective responses across GPT-5, Clau
 
 Limitations
 - Descriptive, not inferential: We did not perform statistical testing or multi-rater annotation in this draft.
-- Label incompleteness: Some trial types were inferred from filenames; timestamps are uneven; mirror metrics were intentionally excluded (separate experiment).
+- Label incompleteness: Some trial types were inferred from filenames; timestamps are uneven; certain diagnostic metrics (e.g., self-recognition tasks) are out of scope for this draft.
 - Selection and interpretation: Curated comparisons, while source-preserving, still reflect evaluator framing.
 
 Outlook

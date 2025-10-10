@@ -2,7 +2,7 @@ We compiled a heterogeneous corpus of introspective responses across GPT-5, Clau
 
 Limitations
 - Descriptive, not inferential: We did not perform statistical testing or multi-rater annotation in this draft.
-- Label incompleteness: Some trial types were inferred from filenames; timestamps are uneven; mirror metrics were intentionally excluded (separate experiment).
+- Label incompleteness: Some trial types were inferred from filenames; timestamps are uneven; certain diagnostic metrics (e.g., self-recognition tasks) are out of scope for this draft.
 - Selection and interpretation: Curated comparisons, while source-preserving, still reflect evaluator framing.
 
 Outlook

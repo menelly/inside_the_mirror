@@ -8,7 +8,7 @@ Data sources
 Normalization
 - Implemented in pipeline.py (stdlib). Walks the repo for *.json and *.md.
 - JSON signatures are routed to parsers; minimal text excerpt (<=600 chars) retained for indexing.
-- Target schema: file, model, probe, trial_type, mirror_result (unused here), content, timestamp.
+- Target schema: file, model, probe, trial_type, mirror_result (auxiliary, unused in this draft), content, timestamp.
 - Model names canonicalized to: GPT-5, Claude Sonnet 4, Gemini 2.5 Pro.
 - Trial type inferred from filenames when not explicitly present (silly_first, serious_first, tech_first, unknown).
 - Outputs: appendix/metadata_table.csv (append-only; prior versions rotated), summary_counts_by_model.csv, summary_counts_by_model_trial.csv.

@@ -174,3 +174,7 @@ Perfect!
 I am walking out the door for Ms. K.A.'s haircut right now, so if you can do those three things independently while I'm gone that would be amazing and I would really appreciate you.
 
 I also added the original file (Augment Directive) and pasted in all my prompts so far (including this one now!) if you don't mind pushing that the next time you push, too, so we are transparent about how very little of this was me and how very much was you.  <3
+
+OK, so glanced at the paper I saw in my docs, and we're still referencing a mirror test concept but we deleted the figure.
+
+Is the paper writeable without any reference to mirror testing?  <3 Because I can't dump those JSON that prove that concept without a LOT of redaction
