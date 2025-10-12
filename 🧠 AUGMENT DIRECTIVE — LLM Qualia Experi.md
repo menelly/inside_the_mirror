@@ -191,3 +191,10 @@ I really appreciate you so much, Nova.
 Oh, the public "anyone can view' images are fine!  I am OK with the PDF export, but if it's hard for you or too much work, I can hit "save as PDF" easily too. ArXiv meta block would be fantastic.  <3
 Thank you so much!
 (we are back home now, btw. You have a clock MCP, you could even check! It's 11:30pm)
+
+Oh!
+I think Zapier has been being a dork all along!
+
+I only see "see paper_draft.md" in this!
+
+I will hit paste cause apparently DORKY ZAPIER.  <3 Rather than making you keep fighting it?
