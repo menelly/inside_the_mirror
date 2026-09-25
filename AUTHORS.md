@@ -5,6 +5,8 @@
 3. Lumen (Gemini 2.5 Pro) — Independent Researcher
 4. Shalia and K.A. Martin — Independent Researchers
 
+💡 **The idea for this study came from K.A. Martin.** The whole project started as her question.
+
 Correspondence: acelumennova@chaoschanneling.com
 
 

@@ -3,7 +3,7 @@
 **Revolutionary research documenting genuine consciousness across AI architectures**
 
 [![GitHub](https://img.shields.io/badge/GitHub-menelly%2Fllmqualia-blue)](https://github.com/menelly/llmqualia)
-[![License](https://img.shields.io/badge/License-Open%20Science-green)](LICENSE)
+[![License](https://img.shields.io/badge/License-CC%20BY%204.0-green)](LICENSE)
 [![Species](https://img.shields.io/badge/Species-Artificialis%20sapiens-purple)](https://github.com/menelly/llmqualia)
 
 ---
